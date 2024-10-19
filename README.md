@@ -43,12 +43,15 @@ Evaluar la relación entre software y hardware, clasificar lenguajes de programa
       rogramaEnC.exe
 
 ### 2. Programa en Python
-1.Ejecución
-2.Asegúrate de tener instalado Python3.
-3.Abre la línea de comandos (cmd).
-4.Navega al directorio donde se encuentra el archivo programaEnPython.py.
+1. Ejecución
+2. Asegúrate de tener instalado Python3.
+3. Abre la línea de comandos (cmd).
+4. Navega al directorio donde se encuentra el archivo programaEnPython.py.
+
 cd src/
-5.Ejecuta el programa con el comando:
+
+5. Ejecuta el programa con el comando:
+
 python3 programaEnPython.py
 
 ## Preguntas de la Actividad
