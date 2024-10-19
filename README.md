@@ -57,7 +57,8 @@ python3 programaEnPython.py
 ## Preguntas de la Actividad
 
 5. Preguntas y Actividades para Evaluar Cada Criterio de Evaluación
-5.1. Relación entre Software y Hardware
+
+5. 1. Relación entre Software y Hardware
 Durante la ejecución de los programas:
 
 Memoria RAM: Los datos (como el nombre del usuario) se almacenan en la RAM. En Python y Java, se utilizan objetos y variables, mientras que en C, se utiliza un arreglo de caracteres.
@@ -66,18 +67,18 @@ Procesador: El procesador ejecuta instrucciones. En el caso de C, se compila el 
 
 Interacción con periféricos: En todos los lenguajes, se interactúa con la pantalla para mostrar la salida. Esto se realiza a través de las bibliotecas y funciones específicas de cada lenguaje.
 
-5.2. Diferenciación entre Código Fuente, Código Objeto y Ejecutable
+5. 2. Diferenciación entre Código Fuente, Código Objeto y Ejecutable
 C: El código fuente se transforma en código objeto mediante un compilador (por ejemplo, gcc). El archivo generado suele tener la extensión .o. Luego, este se enlaza para generar un ejecutable (por ejemplo, a.out).
 
 Python: No se generan archivos intermedios; el intérprete ejecuta directamente el código fuente.
 
 Java: El código fuente se compila a bytecode (archivo .class) mediante el compilador javac. Este bytecode es ejecutado por la JVM (Java Virtual Machine).
 
-5.3. Generación de Código Intermedio para Máquinas Virtuales
+5. 3. Generación de Código Intermedio para Máquinas Virtuales
 
 En Java, el código fuente se compila a bytecode. Este bytecode es un formato intermedio que la JVM interpreta y ejecuta. La máquina virtual proporciona un entorno de ejecución que permite que el mismo bytecode se ejecute en diferentes plataformas, a diferencia de los lenguajes compilados que generan código específico para cada sistema operativo.
 
-5.4. Clasificación de Lenguajes de Programación
+5. 4. Clasificación de Lenguajes de Programación
 
 Lenguaje: Python	Modo de Ejecución: Interpretado	   Nivel de Abstracción: Alto nivel	Paradigma: Imperativo, Orientado a objetos
 Lenguaje: C	      Modo de Ejecución: Compilado	      Nivel de Abstracción: Bajo nivel	Paradigma: Imperativo
@@ -85,7 +86,7 @@ Lenguaje: Java    Modo de Ejecución: Máquina virtual	Nivel de Abstracción: Al
 
 Características: Python es fácil de leer y escribir, ideal para desarrollo rápido. C ofrece control bajo nivel y eficiencia. Java combina la facilidad de un alto nivel con portabilidad gracias a la JVM.
 
-5.5. Evaluación de Herramientas Utilizadas en el Desarrollo
+5. 5. Evaluación de Herramientas Utilizadas en el Desarrollo
 Python:
 Sistema Operativo: Linux
 Editor/IDE: Visual Studio Code
