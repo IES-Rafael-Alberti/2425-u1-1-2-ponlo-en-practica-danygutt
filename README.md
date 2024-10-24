@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/9J9TrW2r)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=16642751&assignment_repo_type=AssignmentRepo)
 # Práctica 2: Introducción al desarrollo. Ponlo en práctica. 
 
 Apoyate en los siguientes recursos para realizar la práctica:
@@ -7,72 +9,123 @@ Apoyate en los siguientes recursos para realizar la práctica:
 
 ---
 
-# Título de la Actividad
+# Práctica 1.11: Elementos de desarrollo
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** [ID de la actividad]
-- **Módulo:** [Nombre del módulo] (`PROG`, `IS`, `EDES`, etc.)
-- **Unidad de Trabajo:** [Número y nombre de la unidad de trabajo]
-- **Fecha de Creación:** [Fecha de creación]
-- **Fecha de Entrega:** [Fecha de entrega]
-- **Alumno(s):** 
-  - **Nombre y Apellidos:** [Nombre y Apellidos del alumno o integrantes del grupo]
-  - **Correo electrónico:** [Correo electrónico g.educaand.es]
-  - **Iniciales del Alumno/Grupo:** [Iniciales del alumno o del grupo]
+- **ID de la Actividad:** P 1.11 Elementos del desarrollo: ponlo en práctica
+- **Módulo:** `EDES`
+- **Unidad de Trabajo:** Und 1
+- **Fecha de Creación:** 19/10/2024
+- **Fecha de Entrega:** 24/10/2024
+- **Alumno:** 
+  - **Nombre y Apellidos:** Daniel Villar Guttenberger
+  - **Correo electrónico:** dvilgut2404@g.educaand.es
+  - **Iniciales del Alumno:** DVG
 
 ## Descripción de la Actividad
-[Descripción detallada de la actividad, objetivos, y contexto necesario para comprenderla. Explicar en qué consiste la actividad y qué se espera que el alumno desarrolle o implemente.]
+Evaluar la relación entre software y hardware, clasificar lenguajes de programación y comprender los diferentes procesos de ejecución (compilación, interpretación y máquinas virtuales), utilizando ejemplos de lenguajes interpretados, compilados y que generan código intermedio para su ejecución en una máquina virtual.
 
 ## Instrucciones de Compilación y Ejecución
 1. **Requisitos Previos:**
-   - [Lenguaje de programación y versión]
-   - [Entorno de desarrollo o dependencias necesarias]
+   - Python, C y Java
+   - Visual Studio Code
 
 2. **Pasos para Compilar el Código:**
+   
+   Para compilar nuestro programa en C:
+
+   codigo ejecutable:
    ```bash
-   [Comando para compilar el código]
+   gcc programaEnC.c -c programaEnC
+   ```
+
+   Para ver el byteCode en java:
+   ```bash
+   javap -c programaEnJava.java
+   ```
+
+   Para compilar nuestro programa en Java:
+   ```bash
+   javap programaEnJava.java
    ```
 
 3. **Pasos para Ejecutar el Código:**
+
+   Para ejecutar el programa en python:
    ```bash
-   [Comando para ejecutar la aplicación]
+   python3 programaEnPython.py
    ```
 
-4. **Ejecución de Pruebas:**
+   Para ejecutar el programa en C:
    ```bash
-   [Comandos para ejecutar pruebas, si las hubiera]
+   ./programaEnC
    ```
 
-## Desarrollo de la Actividad
-### Descripción del Desarrollo
-[Explicación de cómo se ha abordado el desarrollo de la actividad, incluyendo las decisiones de diseño, estructura del código y enfoque de resolución de problemas. Se recomienda adjuntar diagramas o capturas de pantalla si es necesario.]
+   Para ejecutar el programa en java:
+   ```bash
+   java programaEnJava
+   ```
 
 ### Código Fuente
-[Aquí se incluirá un enlace directo a los archivos de código fuente en el repositorio, por ejemplo, si se está usando GitHub: `src/main.java` o algún enlace directo.]
 
-### Ejemplos de Ejecución
-- **Entrada 1:** Descripción de la entrada y valor de prueba.
-- **Salida Esperada 1:** Explicación de la salida esperada y el resultado de la prueba.
+   - [Código fuente C.](src/programaEnC.c) 
 
-### Resultados de Pruebas
-[Aquí se detallará cómo se ha verificado la funcionalidad del código, incluyendo resultados de pruebas automatizadas o manuales, en caso de que las haya.]
+   - [Código fuente java.](src/programaEnJava.java)
 
-## Documentación Adicional
-- **Manual de Usuario:** [Enlace a la documentación del usuario, si existe]
-- **Autorización de Permisos:** Verificar que el profesor tenga permisos de lectura en el repositorio para revisar el código.
+   - [Código fuente python.](src/programaEnPython.py)
 
-## Conclusiones
-[Resumen de las conclusiones alcanzadas al desarrollar la actividad, las lecciones aprendidas, y posibles mejoras que se puedan implementar en futuras entregas.]
 
-## Referencias y Fuentes
-[Aquí se listarán las fuentes consultadas para el desarrollo de la actividad, tales como documentación oficial, artículos, o cualquier recurso externo relevante.]
+5. Preguntas y Actividades para Evaluar Cada Criterio de Evaluación
 
-### Notas Adicionales:
-1. **Nombres de Archivos y Repositorios:**
-   - Asegúrate de que el nombre del archivo o repositorio siga la estructura definida: `XXX-idActividad-Iniciales`.
-2. **Permisos:**
-   - Verifica que el profesor tenga los permisos necesarios para acceder al repositorio o documento.
-3. **Formato:**
-   - Si se entrega en formato PDF o Google Docs, asegúrate de cumplir con el mínimo y máximo de folios establecidos.
-4. **Compilación y Ejecución:**
-   - Detalla claramente cómo compilar y ejecutar el código, incluyendo las instrucciones en el archivo `README.md`.
+   1. Relación entre Software y Hardware
+Durante la ejecución de los programas:
+
+Memoria RAM: Los datos (como el nombre del usuario) se almacenan en la RAM. En Python y Java, se utilizan objetos y variables, mientras que en C, se utiliza un arreglo de caracteres.
+
+Procesador: El procesador ejecuta instrucciones. En el caso de C, se compila el código a código máquina, que el procesador puede ejecutar directamente. Para Python y Java, el procesador ejecuta instrucciones a través del intérprete y la máquina virtual respectivamente.
+
+Interacción con periféricos: En todos los lenguajes, se interactúa con la pantalla para mostrar la salida. Esto se realiza a través de las bibliotecas y funciones específicas de cada lenguaje.
+
+   2. Diferenciación entre Código Fuente, Código Objeto y Ejecutable
+C: El código fuente se transforma en código objeto mediante un compilador (por ejemplo, gcc). El archivo generado suele tener la extensión .o. Luego, este se enlaza para generar un ejecutable (por ejemplo, a.out).
+
+Python: No se generan archivos intermedios; el intérprete ejecuta directamente el código fuente.
+
+Java: El código fuente se compila a bytecode (archivo .class) mediante el compilador javac. Este bytecode es ejecutado por la JVM (Java Virtual Machine).
+
+   3. Generación de Código Intermedio para Máquinas Virtuales
+
+En Java, el código fuente se compila a bytecode. Este bytecode es un formato intermedio que la JVM interpreta y ejecuta. La máquina virtual proporciona un entorno de ejecución que permite que el mismo bytecode se ejecute en diferentes plataformas, a diferencia de los lenguajes compilados que generan código específico para cada sistema operativo.
+
+   4. Clasificación de Lenguajes de Programación
+
+Lenguaje: Python	Modo de Ejecución: Interpretado	   Nivel de Abstracción: Alto nivel	Paradigma: Imperativo, Orientado a objetos
+Lenguaje: C	      Modo de Ejecución: Compilado	      Nivel de Abstracción: Bajo nivel	Paradigma: Imperativo
+Lenguaje: Java    Modo de Ejecución: Máquina virtual	Nivel de Abstracción: Alto nivel	Paradigma: Orientado a objetos
+
+Características: Python es fácil de leer y escribir, ideal para desarrollo rápido. C ofrece control bajo nivel y eficiencia. Java combina la facilidad de un alto nivel con portabilidad gracias a la JVM.
+
+   5. Evaluación de Herramientas Utilizadas en el Desarrollo
+Python:
+Sistema Operativo: Linux
+Editor/IDE: Visual Studio Code
+Intérprete: Python 3
+
+C:
+Sistema Operativo: Linux
+Editor/IDE: Visual Studio Code 
+Compilador: GCC
+
+6. Entrega
+
+codigos en la carpeta src
+
+![Prueba en python](<Captura desde 2024-10-19 16-58-14.png>)
+![Prueba en C](<Captura desde 2024-10-19 16-42-11.png>)
+
+7. Conclusión Final
+Comparando los tres lenguajes:
+
+Rendimiento: C es el más rápido, seguido de Java (por la JVM), y Python es el más lento debido a su naturaleza interpretada.
+Facilidad de uso: Python es el más accesible, seguido de Java, mientras que C puede ser más complejo debido a su manejo de memoria.
+Ventajas y desventajas: Python es flexible y fácil, pero menos eficiente. C ofrece control y velocidad, pero es más propenso a errores de gestión de memoria. Java ofrece portabilidad y seguridad, aunque puede ser más pesado debido a la JVM.
