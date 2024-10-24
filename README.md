@@ -53,7 +53,7 @@ Evaluar la relación entre software y hardware, clasificar lenguajes de programa
 
    Para ejecutar el programa en python:
    ```bash
-   python3 bienvenida.py
+   python3 programaEnPython.py
    ```
 
    Para ejecutar el programa en C:
