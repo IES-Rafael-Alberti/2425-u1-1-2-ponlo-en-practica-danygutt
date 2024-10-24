@@ -12,11 +12,11 @@ Apoyate en los siguientes recursos para realizar la práctica:
 # Práctica 1.11: Elementos de desarrollo
 
 ## Identificación de la Actividad
-- **ID de la Actividad:** P 1.11
+- **ID de la Actividad:** P 1.11 Elementos del desarrollo: ponlo en práctica
 - **Módulo:** `EDES`
 - **Unidad de Trabajo:** Und 1
 - **Fecha de Creación:** 19/10/2024
-- **Fecha de Entrega:** 19/10/2024
+- **Fecha de Entrega:** 24/10/2024
 - **Alumno:** 
   - **Nombre y Apellidos:** Daniel Villar Guttenberger
   - **Correo electrónico:** dvilgut2404@g.educaand.es
@@ -26,35 +26,54 @@ Apoyate en los siguientes recursos para realizar la práctica:
 Evaluar la relación entre software y hardware, clasificar lenguajes de programación y comprender los diferentes procesos de ejecución (compilación, interpretación y máquinas virtuales), utilizando ejemplos de lenguajes interpretados, compilados y que generan código intermedio para su ejecución en una máquina virtual.
 
 ## Instrucciones de Compilación y Ejecución
+1. **Requisitos Previos:**
+   - Python, C y Java
+   - Visual Studio Code
 
-### 1. Programa en C
+2. **Pasos para Compilar el Código:**
+   
+   Para compilar nuestro programa en C:
 
-#### Compilación y Ejecución
+   codigo ejecutable:
+   ```bash
+   gcc programaEnC.c -c programaEnC
+   ```
 
-1. **Asegúrate de tener instalado un compilador de C** (como GCC).
-2. Abre la línea de comandos (cmd).
-3. Navega al directorio donde se encuentra el archivo `programaEnC.c`.
-4. Compila el programa usando el siguiente comando:
-      
-      gcc rogramaEnC.c -o rogramaEnC.exe
+   Para ver el byteCode en java:
+   ```bash
+   javap -c programaEnJava.java
+   ```
 
-5. Ejecuta el programa:
+   Para compilar nuestro programa en Java:
+   ```bash
+   javap programaEnJava.java
+   ```
 
-      rogramaEnC.exe
+3. **Pasos para Ejecutar el Código:**
 
-### 2. Programa en Python
-1. Ejecución
-2. Asegúrate de tener instalado Python3.
-3. Abre la línea de comandos (cmd).
-4. Navega al directorio donde se encuentra el archivo programaEnPython.py.
+   Para ejecutar el programa en python:
+   ```bash
+   python3 bienvenida.py
+   ```
 
-cd src/
+   Para ejecutar el programa en C:
+   ```bash
+   ./programaEnC
+   ```
 
-5. Ejecuta el programa con el comando:
+   Para ejecutar el programa en java:
+   ```bash
+   java programaEnJava
+   ```
 
-python3 programaEnPython.py
+### Código Fuente
 
-## Preguntas de la Actividad
+   - [Código fuente C.](src/programaEnC.c) 
+
+   - [Código fuente java.](src/programaEnJava.java)
+
+   - [Código fuente python.](src/programaEnPython.py)
+
 
 5. Preguntas y Actividades para Evaluar Cada Criterio de Evaluación
 
